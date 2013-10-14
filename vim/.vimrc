@@ -1,23 +1,5 @@
- " --- Vundle setup
- set nocompatible               " be iMproved
- filetype off                   " required!
-
- set rtp+=~/.vim/bundle/vundle/
- call vundle#rc()
-
- " let Vundle manage Vundle
- " required!
- Bundle 'gmarik/vundle'
-
- " My Bundles here:
-
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'bling/vim-airline'
-Bundle 'kien/ctrlp.vim'
-Bundle "pangloss/vim-javascript"
-Bundle 'jelera/vim-javascript-syntax'
-Bundle 'sickill/vim-monokai'
-Bundle 'kchmck/vim-coffee-script'
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
 
 filetype on
 filetype plugin indent on     " required!
