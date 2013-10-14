@@ -8,9 +8,15 @@ syntax enable
 set background=dark
 colorscheme Monokai
 
-if $TERM != 'xterm-256color'
-  echo 'Warning: Term is ' . $TERM
+if has("gui_macvim")
+  set guifont=Menlo
+elseif has("gui_running")
+  set guifont=Consolas:h14
 endif
+
+" if $TERM != 'xterm-256color'
+"  echo 'Warning: Term is ' . $TERM
+" endif
 
  " Show status line always
 set laststatus=2
