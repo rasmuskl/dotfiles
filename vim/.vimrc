@@ -27,6 +27,9 @@ set number
  " Set tabs to 2
 set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 
+set encoding=utf-8
+set fileencoding=utf-8
+
 let mapleader=","
 noremap <leader>e :tabe
 noremap <leader>v :tabe ~/.vimrc<cr>
@@ -42,10 +45,8 @@ autocmd bufwritepost $MYVIMRC :so $MYVIMRC
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
-
-" Use the same symbols as TextMate for tabstops and EOLs
-" Shortcut to rapidly toggle `set list`
 noremap <leader>l :set list!<CR>
+set listchars=tab:▸\ ,eol:¬
 
 function! Preserve(command)
   " Preparation: save last search, and cursor position.
