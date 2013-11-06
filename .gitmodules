@@ -28,3 +28,6 @@
 [submodule "vim/.vim/bundle/nerdtree"]
 	path = vim/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/.vim/bundle/vim-clojure-static"]
+	path = vim/.vim/bundle/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static
