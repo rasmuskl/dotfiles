@@ -43,6 +43,10 @@ vnoremap <C-s> <esc>:w<cr>
 autocmd bufwritepost $MYVIMRC :so $MYVIMRC
 " autocmd bufwritepost * :CommandTFlush
 
+" NERDTree
+nmap <leader>t :NERDTreeToggle<cr>
+noremap <leader>t :NERDTreeToggle<cr>
+
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
 noremap <leader>l :set list!<CR>
