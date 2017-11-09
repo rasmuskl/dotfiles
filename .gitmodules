@@ -1,0 +1,15 @@
+[submodule "nvim/pack/default/start/vim-monokai"]
+	path = pack/default/start/vim-monokai
+	url = git@github.com:crusoexia/vim-monokai.git
+[submodule "nvim/pack/default/start/vim-airline"]
+	path = pack/default/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "nvim/pack/default/start/ctrlp.vim"]
+	path = pack/default/start/ctrlp.vim
+	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule "nvim/pack/default/start/vim-ruby"]
+	path = pack/default/start/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+[submodule "nvim/pack/default/start/supertab"]
+	path = pack/default/start/supertab
+	url = git@github.com:ervandew/supertab.git
