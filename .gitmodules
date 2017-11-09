@@ -13,3 +13,6 @@
 [submodule "nvim/pack/default/start/supertab"]
 	path = pack/default/start/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "nvim/pack/default/start/vim-ripgrep"]
+	path = nvim/pack/default/start/vim-ripgrep
+	url = git@github.com:jremmen/vim-ripgrep.git
